@@ -1,1 +1,3 @@
-# Double-Dabble-VLSI-Implementation-
+# 8-bit Double-Dabble-VLSI-Implementation-
+
+The double-dabble algorithm is used to convert an 8-bit binary input into a 10-bit binary-coded-decimal (BCD). The algorithm typically works by adding three to 4-bit decimal sections of the running BCD output when any decimal is greater than 4; the input is then shifted in once, shifting up to a total of n-bit times. However, this implementation of the double dabble algorithm was mathematically optimized for a combinational calculation, without the need for timing or other error-prone systems. The bits propagate through a series of comparators, adders, and multiplexers to arrive at a correct BCD output. This system was theorized in Multisim, built in Electric VLSI, and simulated in LTspice
